@@ -17,6 +17,7 @@ import {
 import { ListComponent } from './list/list.component';
 import { DetailsComponent } from './details/details.component';
 import { MapsComponent } from './maps/maps.component';
+
 @NgModule({
   declarations: [
     AppComponent,

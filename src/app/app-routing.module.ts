@@ -4,7 +4,6 @@ import { ListComponent } from './list/list.component';
 import { DetailsComponent } from './details/details.component';
 import { MapsComponent } from './maps/maps.component';
 
-
 const routes: Routes = [
   {
     path: 'list',

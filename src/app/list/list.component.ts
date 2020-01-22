@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Team } from '../team';
 
 @Component({
   selector: 'app-list',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListComponent implements OnInit {
 
-  constructor() { }
+  teams = Team;
+
+  constructor() {}
 
   ngOnInit() {
   }
